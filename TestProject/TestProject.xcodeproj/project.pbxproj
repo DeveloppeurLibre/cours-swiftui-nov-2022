@@ -23,6 +23,8 @@
 		64ABEF342935F459009291D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF332935F459009291D9 /* Item.swift */; };
 		64ABEF362935F500009291D9 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF352935F500009291D9 /* List.swift */; };
 		64F79989293611730091AF9E /* ExempleUtilisationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F79988293611730091AF9E /* ExempleUtilisationBinding.swift */; };
+		64F7998C293614F50091AF9E /* ListExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F7998B293614F50091AF9E /* ListExemple.swift */; };
+		64F7998E293618700091AF9E /* ListExemple2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F7998D293618700091AF9E /* ListExemple2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		64ABEF332935F459009291D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		64ABEF352935F500009291D9 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		64F79988293611730091AF9E /* ExempleUtilisationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExempleUtilisationBinding.swift; sourceTree = "<group>"; };
+		64F7998B293614F50091AF9E /* ListExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExemple.swift; sourceTree = "<group>"; };
+		64F7998D293618700091AF9E /* ListExemple2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExemple2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 				640CD6E82935FAB30012E87E /* State */,
 				649242E72936009100EC714E /* Binding */,
 				64F799872936115D0091AF9E /* Utilisations_Binding */,
+				64F7998A293614E20091AF9E /* Lists+ForEach */,
 			);
 			path = Exemple;
 			sourceTree = "<group>";
@@ -159,6 +164,15 @@
 			path = Utilisations_Binding;
 			sourceTree = "<group>";
 		};
+		64F7998A293614E20091AF9E /* Lists+ForEach */ = {
+			isa = PBXGroup;
+			children = (
+				64F7998B293614F50091AF9E /* ListExemple.swift */,
+				64F7998D293618700091AF9E /* ListExemple2.swift */,
+			);
+			path = "Lists+ForEach";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +246,7 @@
 				64F79989293611730091AF9E /* ExempleUtilisationBinding.swift in Sources */,
 				6411CAD3293501220091EADF /* ProfileView.swift in Sources */,
 				6411CAD12934FDCD0091EADF /* LabelStat.swift in Sources */,
+				64F7998C293614F50091AF9E /* ListExemple.swift in Sources */,
 				640CD6EA2935FAC90012E87E /* ButtonExemple.swift in Sources */,
 				64ABEF362935F500009291D9 /* List.swift in Sources */,
 				64ABEF342935F459009291D9 /* Item.swift in Sources */,
@@ -239,6 +254,7 @@
 				6411CACC2934FC940091EADF /* ProfileHeader.swift in Sources */,
 				6411CAD5293502C10091EADF /* Profile.swift in Sources */,
 				64ABEF312935F43A009291D9 /* Cell.swift in Sources */,
+				64F7998E293618700091AF9E /* ListExemple2.swift in Sources */,
 				649242E9293600C700EC714E /* BindingChildView.swift in Sources */,
 				649242EB293600D100EC714E /* BindingMotherView.swift in Sources */,
 				6411CAD729350FDC0091EADF /* LikeButton.swift in Sources */,
