@@ -7,37 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640CD6EA2935FAC90012E87E /* ButtonExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640CD6E92935FAC90012E87E /* ButtonExemple.swift */; };
 		6411CABA2934C8970091EADF /* TestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAB92934C8970091EADF /* TestProjectApp.swift */; };
-		6411CABC2934C8970091EADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CABB2934C8970091EADF /* ContentView.swift */; };
 		6411CABE2934C8980091EADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6411CABD2934C8980091EADF /* Assets.xcassets */; };
 		6411CAC12934C8980091EADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6411CAC02934C8980091EADF /* Preview Assets.xcassets */; };
-		6411CAC82934E5F50091EADF /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAC72934E5F50091EADF /* Test.swift */; };
-		6411CACA2934E6060091EADF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAC92934E6060091EADF /* TestView.swift */; };
 		6411CACC2934FC940091EADF /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CACB2934FC940091EADF /* ProfileHeader.swift */; };
 		6411CACF2934FD040091EADF /* ProfileStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CACE2934FD040091EADF /* ProfileStats.swift */; };
 		6411CAD12934FDCD0091EADF /* LabelStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD02934FDCD0091EADF /* LabelStat.swift */; };
 		6411CAD3293501220091EADF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD2293501220091EADF /* ProfileView.swift */; };
 		6411CAD5293502C10091EADF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD4293502C10091EADF /* Profile.swift */; };
 		6411CAD729350FDC0091EADF /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD629350FDC0091EADF /* LikeButton.swift */; };
+		649242E32935FC7700EC714E /* ChildViewExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E22935FC7700EC714E /* ChildViewExemple.swift */; };
+		649242E62935FC9400EC714E /* MotherViewExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E52935FC9400EC714E /* MotherViewExemple.swift */; };
+		649242E9293600C700EC714E /* BindingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E8293600C700EC714E /* BindingChildView.swift */; };
+		649242EB293600D100EC714E /* BindingMotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242EA293600D100EC714E /* BindingMotherView.swift */; };
 		64ABEF312935F43A009291D9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF302935F43A009291D9 /* Cell.swift */; };
 		64ABEF342935F459009291D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF332935F459009291D9 /* Item.swift */; };
 		64ABEF362935F500009291D9 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF352935F500009291D9 /* List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640CD6E92935FAC90012E87E /* ButtonExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExemple.swift; sourceTree = "<group>"; };
 		6411CAB62934C8970091EADF /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6411CAB92934C8970091EADF /* TestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectApp.swift; sourceTree = "<group>"; };
-		6411CABB2934C8970091EADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6411CABD2934C8980091EADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6411CAC02934C8980091EADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6411CAC72934E5F50091EADF /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		6411CAC92934E6060091EADF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		6411CACB2934FC940091EADF /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		6411CACE2934FD040091EADF /* ProfileStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStats.swift; sourceTree = "<group>"; };
 		6411CAD02934FDCD0091EADF /* LabelStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStat.swift; sourceTree = "<group>"; };
 		6411CAD2293501220091EADF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6411CAD4293502C10091EADF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		6411CAD629350FDC0091EADF /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		649242E22935FC7700EC714E /* ChildViewExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewExemple.swift; sourceTree = "<group>"; };
+		649242E52935FC9400EC714E /* MotherViewExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherViewExemple.swift; sourceTree = "<group>"; };
+		649242E8293600C700EC714E /* BindingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildView.swift; sourceTree = "<group>"; };
+		649242EA293600D100EC714E /* BindingMotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMotherView.swift; sourceTree = "<group>"; };
 		64ABEF302935F43A009291D9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		64ABEF332935F459009291D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		64ABEF352935F500009291D9 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
@@ -54,6 +58,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640CD6E52935FA730012E87E /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				6411CAB92934C8970091EADF /* TestProjectApp.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		640CD6E62935FA900012E87E /* Exemple */ = {
+			isa = PBXGroup;
+			children = (
+				640CD6E82935FAB30012E87E /* State */,
+				649242E72936009100EC714E /* Binding */,
+			);
+			path = Exemple;
+			sourceTree = "<group>";
+		};
+		640CD6E82935FAB30012E87E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				640CD6E92935FAC90012E87E /* ButtonExemple.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 		6411CAAD2934C8970091EADF = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +102,11 @@
 		6411CAB82934C8970091EADF /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
-				6411CACD2934FCC40091EADF /* Components */,
-				6411CAB92934C8970091EADF /* TestProjectApp.swift */,
-				6411CABB2934C8970091EADF /* ContentView.swift */,
-				6411CAC72934E5F50091EADF /* Test.swift */,
-				6411CAC92934E6060091EADF /* TestView.swift */,
+				640CD6E52935FA730012E87E /* MainApp */,
+				640CD6E62935FA900012E87E /* Exemple */,
+				6411CACD2934FCC40091EADF /* Insta Exemple */,
 				6411CABD2934C8980091EADF /* Assets.xcassets */,
 				6411CABF2934C8980091EADF /* Preview Content */,
-				6411CAD4293502C10091EADF /* Profile.swift */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -93,9 +119,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6411CACD2934FCC40091EADF /* Components */ = {
+		6411CACD2934FCC40091EADF /* Insta Exemple */ = {
 			isa = PBXGroup;
 			children = (
+				6411CAD4293502C10091EADF /* Profile.swift */,
 				6411CACB2934FC940091EADF /* ProfileHeader.swift */,
 				6411CACE2934FD040091EADF /* ProfileStats.swift */,
 				6411CAD02934FDCD0091EADF /* LabelStat.swift */,
@@ -103,7 +130,27 @@
 				6411CAD629350FDC0091EADF /* LikeButton.swift */,
 				64ABEF322935F44C009291D9 /* TestApp */,
 			);
-			path = Components;
+			path = "Insta Exemple";
+			sourceTree = "<group>";
+		};
+		649242E42935FC7A00EC714E /* Mauvais exemple */ = {
+			isa = PBXGroup;
+			children = (
+				649242E52935FC9400EC714E /* MotherViewExemple.swift */,
+				649242E22935FC7700EC714E /* ChildViewExemple.swift */,
+			);
+			name = "Mauvais exemple";
+			path = "Vie Mère - Fille - Mauvais Exemple";
+			sourceTree = "<group>";
+		};
+		649242E72936009100EC714E /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				649242E42935FC7A00EC714E /* Mauvais exemple */,
+				649242EA293600D100EC714E /* BindingMotherView.swift */,
+				649242E8293600C700EC714E /* BindingChildView.swift */,
+			);
+			path = Binding;
 			sourceTree = "<group>";
 		};
 		64ABEF322935F44C009291D9 /* TestApp */ = {
@@ -188,16 +235,18 @@
 			files = (
 				6411CAD3293501220091EADF /* ProfileView.swift in Sources */,
 				6411CAD12934FDCD0091EADF /* LabelStat.swift in Sources */,
-				6411CACA2934E6060091EADF /* TestView.swift in Sources */,
-				6411CABC2934C8970091EADF /* ContentView.swift in Sources */,
+				640CD6EA2935FAC90012E87E /* ButtonExemple.swift in Sources */,
 				64ABEF362935F500009291D9 /* List.swift in Sources */,
 				64ABEF342935F459009291D9 /* Item.swift in Sources */,
 				6411CABA2934C8970091EADF /* TestProjectApp.swift in Sources */,
 				6411CACC2934FC940091EADF /* ProfileHeader.swift in Sources */,
-				6411CAC82934E5F50091EADF /* Test.swift in Sources */,
 				6411CAD5293502C10091EADF /* Profile.swift in Sources */,
 				64ABEF312935F43A009291D9 /* Cell.swift in Sources */,
+				649242E9293600C700EC714E /* BindingChildView.swift in Sources */,
+				649242EB293600D100EC714E /* BindingMotherView.swift in Sources */,
+				649242E62935FC9400EC714E /* MotherViewExemple.swift in Sources */,
 				6411CAD729350FDC0091EADF /* LikeButton.swift in Sources */,
+				649242E32935FC7700EC714E /* ChildViewExemple.swift in Sources */,
 				6411CACF2934FD040091EADF /* ProfileStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
