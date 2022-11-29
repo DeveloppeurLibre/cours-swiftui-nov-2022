@@ -17,13 +17,12 @@
 		6411CAD3293501220091EADF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD2293501220091EADF /* ProfileView.swift */; };
 		6411CAD5293502C10091EADF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD4293502C10091EADF /* Profile.swift */; };
 		6411CAD729350FDC0091EADF /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6411CAD629350FDC0091EADF /* LikeButton.swift */; };
-		649242E32935FC7700EC714E /* ChildViewExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E22935FC7700EC714E /* ChildViewExemple.swift */; };
-		649242E62935FC9400EC714E /* MotherViewExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E52935FC9400EC714E /* MotherViewExemple.swift */; };
 		649242E9293600C700EC714E /* BindingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E8293600C700EC714E /* BindingChildView.swift */; };
 		649242EB293600D100EC714E /* BindingMotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242EA293600D100EC714E /* BindingMotherView.swift */; };
 		64ABEF312935F43A009291D9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF302935F43A009291D9 /* Cell.swift */; };
 		64ABEF342935F459009291D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF332935F459009291D9 /* Item.swift */; };
 		64ABEF362935F500009291D9 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF352935F500009291D9 /* List.swift */; };
+		64F79989293611730091AF9E /* ExempleUtilisationBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F79988293611730091AF9E /* ExempleUtilisationBinding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,13 +37,12 @@
 		6411CAD2293501220091EADF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6411CAD4293502C10091EADF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		6411CAD629350FDC0091EADF /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
-		649242E22935FC7700EC714E /* ChildViewExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewExemple.swift; sourceTree = "<group>"; };
-		649242E52935FC9400EC714E /* MotherViewExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherViewExemple.swift; sourceTree = "<group>"; };
 		649242E8293600C700EC714E /* BindingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildView.swift; sourceTree = "<group>"; };
 		649242EA293600D100EC714E /* BindingMotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMotherView.swift; sourceTree = "<group>"; };
 		64ABEF302935F43A009291D9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		64ABEF332935F459009291D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		64ABEF352935F500009291D9 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		64F79988293611730091AF9E /* ExempleUtilisationBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExempleUtilisationBinding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +69,7 @@
 			children = (
 				640CD6E82935FAB30012E87E /* State */,
 				649242E72936009100EC714E /* Binding */,
+				64F799872936115D0091AF9E /* Utilisations_Binding */,
 			);
 			path = Exemple;
 			sourceTree = "<group>";
@@ -133,20 +132,9 @@
 			path = "Insta Exemple";
 			sourceTree = "<group>";
 		};
-		649242E42935FC7A00EC714E /* Mauvais exemple */ = {
-			isa = PBXGroup;
-			children = (
-				649242E52935FC9400EC714E /* MotherViewExemple.swift */,
-				649242E22935FC7700EC714E /* ChildViewExemple.swift */,
-			);
-			name = "Mauvais exemple";
-			path = "Vie Mère - Fille - Mauvais Exemple";
-			sourceTree = "<group>";
-		};
 		649242E72936009100EC714E /* Binding */ = {
 			isa = PBXGroup;
 			children = (
-				649242E42935FC7A00EC714E /* Mauvais exemple */,
 				649242EA293600D100EC714E /* BindingMotherView.swift */,
 				649242E8293600C700EC714E /* BindingChildView.swift */,
 			);
@@ -161,6 +149,14 @@
 				64ABEF352935F500009291D9 /* List.swift */,
 			);
 			path = TestApp;
+			sourceTree = "<group>";
+		};
+		64F799872936115D0091AF9E /* Utilisations_Binding */ = {
+			isa = PBXGroup;
+			children = (
+				64F79988293611730091AF9E /* ExempleUtilisationBinding.swift */,
+			);
+			path = Utilisations_Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F79989293611730091AF9E /* ExempleUtilisationBinding.swift in Sources */,
 				6411CAD3293501220091EADF /* ProfileView.swift in Sources */,
 				6411CAD12934FDCD0091EADF /* LabelStat.swift in Sources */,
 				640CD6EA2935FAC90012E87E /* ButtonExemple.swift in Sources */,
@@ -244,9 +241,7 @@
 				64ABEF312935F43A009291D9 /* Cell.swift in Sources */,
 				649242E9293600C700EC714E /* BindingChildView.swift in Sources */,
 				649242EB293600D100EC714E /* BindingMotherView.swift in Sources */,
-				649242E62935FC9400EC714E /* MotherViewExemple.swift in Sources */,
 				6411CAD729350FDC0091EADF /* LikeButton.swift in Sources */,
-				649242E32935FC7700EC714E /* ChildViewExemple.swift in Sources */,
 				6411CACF2934FD040091EADF /* ProfileStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
