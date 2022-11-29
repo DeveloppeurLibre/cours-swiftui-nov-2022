@@ -21,6 +21,9 @@ struct ListView: View {
             } label: {
                 Text("Press")
             }
+            .onTapGesture {
+                print("test")
+            }
 
         }
     }
