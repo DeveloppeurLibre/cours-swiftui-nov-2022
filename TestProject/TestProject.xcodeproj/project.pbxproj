@@ -20,6 +20,7 @@
 		6457DF03293747AB0073C2DD /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457DF02293747AB0073C2DD /* TaskItem.swift */; };
 		6457DF0529374A070073C2DD /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457DF0429374A070073C2DD /* TaskCell.swift */; };
 		6457DF0729374FC80073C2DD /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457DF0629374FC80073C2DD /* TaskList.swift */; };
+		6457DF0E293791D80073C2DD /* TestRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457DF0D293791D80073C2DD /* TestRequestView.swift */; };
 		649242E9293600C700EC714E /* BindingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242E8293600C700EC714E /* BindingChildView.swift */; };
 		649242EB293600D100EC714E /* BindingMotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649242EA293600D100EC714E /* BindingMotherView.swift */; };
 		64ABEF312935F43A009291D9 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ABEF302935F43A009291D9 /* Cell.swift */; };
@@ -48,6 +49,7 @@
 		6457DF02293747AB0073C2DD /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 		6457DF0429374A070073C2DD /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		6457DF0629374FC80073C2DD /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		6457DF0D293791D80073C2DD /* TestRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequestView.swift; sourceTree = "<group>"; };
 		649242E8293600C700EC714E /* BindingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildView.swift; sourceTree = "<group>"; };
 		649242EA293600D100EC714E /* BindingMotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMotherView.swift; sourceTree = "<group>"; };
 		64ABEF302935F43A009291D9 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				64F799872936115D0091AF9E /* Utilisations_Binding */,
 				64F7998A293614E20091AF9E /* Lists+ForEach */,
 				64F7998F293642210091AF9E /* Navigation */,
+				6457DF0C293791B70073C2DD /* HTTP Request */,
 			);
 			path = Exemple;
 			sourceTree = "<group>";
@@ -151,6 +154,14 @@
 				64ABEF322935F44C009291D9 /* TestApp */,
 			);
 			path = "Insta Exemple";
+			sourceTree = "<group>";
+		};
+		6457DF0C293791B70073C2DD /* HTTP Request */ = {
+			isa = PBXGroup;
+			children = (
+				6457DF0D293791D80073C2DD /* TestRequestView.swift */,
+			);
+			path = "HTTP Request";
 			sourceTree = "<group>";
 		};
 		649242E72936009100EC714E /* Binding */ = {
@@ -273,6 +284,7 @@
 				6457DF0529374A070073C2DD /* TaskCell.swift in Sources */,
 				6411CAD3293501220091EADF /* ProfileView.swift in Sources */,
 				6411CAD12934FDCD0091EADF /* LabelStat.swift in Sources */,
+				6457DF0E293791D80073C2DD /* TestRequestView.swift in Sources */,
 				64F7998C293614F50091AF9E /* ListExemple.swift in Sources */,
 				640CD6EA2935FAC90012E87E /* ButtonExemple.swift in Sources */,
 				64ABEF362935F500009291D9 /* List.swift in Sources */,
