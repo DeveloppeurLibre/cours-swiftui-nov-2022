@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct TaskItem {
+struct TaskItem: Identifiable {
+    let id: UUID = UUID()
     let name: String
     let dueDate: Date
     let priority: Prioriry?
