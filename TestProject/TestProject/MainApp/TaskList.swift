@@ -12,11 +12,11 @@ struct TaskList: View {
     @StateObject var container = TaskContainer()
     
     var body: some View {
-        VStack {
-            Text("My Tasks")
-                .font(.title)
-                .bold()
-            List {
+        ScrollView {
+            VStack {
+                Text("My Tasks")
+                    .font(.title)
+                    .bold()
                 ForEach(container.tasks) { taskItem in
                     TaskCell(taskItem: taskItem)
                 }

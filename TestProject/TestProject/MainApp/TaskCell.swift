@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TaskCell: View {
     
-    let taskItem: TaskItem
+    @ObservedObject var taskItem: TaskItem
 
     var body: some View {
         HStack {
@@ -41,7 +41,11 @@ struct TaskCell: View {
                 Text(taskItem.dueDate.description)
             }
             Spacer()
-            Image(systemName: taskItem.isDone ? "checkmark.circle" : "circle")
+            Button {
+                taskItem.isDone.toggle()
+            } label: {
+                Image(systemName: taskItem.isDone ? "checkmark.circle" : "circle")
+            }
         }
         .padding()
     }
