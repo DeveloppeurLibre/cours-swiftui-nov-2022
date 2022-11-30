@@ -9,10 +9,7 @@ import SwiftUI
 
 struct TaskList: View {
     
-    @State var tasks = [
-        TaskItem(name: "Preview task", dueDate: Date.now, isDone: true),
-        TaskItem(name: "Preview task", dueDate: Date.now, priority: .medium)
-    ]
+    @StateObject var container = TaskContainer()
     
     var body: some View {
         VStack {
@@ -20,7 +17,7 @@ struct TaskList: View {
                 .font(.title)
                 .bold()
             List {
-                ForEach(tasks) { taskItem in
+                ForEach(container.tasks) { taskItem in
                     TaskCell(taskItem: taskItem)
                 }
             }
@@ -29,7 +26,7 @@ struct TaskList: View {
             Button {
                 // Ajout d'une tache pré-remplie
                 let newTask = TaskItem(name: "New task", dueDate: Date.now)
-                tasks.append(newTask)
+                container.tasks.append(newTask)
             } label: {
                 Image(systemName: "plus")
                     .font(.system(size: 30, weight: .bold))
@@ -40,6 +37,12 @@ struct TaskList: View {
                     .shadow(radius: 10)
             }
             .padding()
+        }
+        .onAppear {
+            container.tasks = [
+                TaskItem(name: "Preview task", dueDate: Date.now, isDone: true),
+                TaskItem(name: "Preview task", dueDate: Date.now, priority: .medium)
+            ]
         }
     }
 }

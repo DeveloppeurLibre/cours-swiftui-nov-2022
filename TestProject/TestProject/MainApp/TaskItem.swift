@@ -7,20 +7,32 @@
 
 import Foundation
 
-struct TaskItem: Identifiable {
+// 1 - Ajouter le protocole ObservableObject
+// 2 (optionnel) - Transformer (si c'est pas déjà fait) l'objet en classe + ajouter un constructeur
+// 3 - Publie les prioriété qui peuvent changer (avec @Published)
+
+class TaskContainer: ObservableObject {
+    @Published var tasks: [TaskItem]
+    
+    init() {
+        self.tasks = []
+    }
+}
+
+class TaskItem: Identifiable, ObservableObject {
     let id: UUID = UUID()
     let name: String
     let dueDate: Date
-    let priority: Prioriry?
-    let isDone: Bool
+    let priority: Priority?
+    @Published var isDone: Bool
     
-    enum Prioriry {
+    enum Priority {
         case high
         case medium
         case low
     }
     
-    init(name: String, dueDate: Date, priority: Prioriry? = nil, isDone: Bool = false) {
+    init(name: String, dueDate: Date, priority: Priority? = nil, isDone: Bool = false) {
         self.name = name
         self.dueDate = dueDate
         self.priority = priority
