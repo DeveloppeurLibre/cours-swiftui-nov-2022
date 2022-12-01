@@ -11,7 +11,7 @@ import SwiftUI
 struct TestProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            TaskList()
+            TestRequestView()
         }
     }
 }
