@@ -24,7 +24,9 @@ struct TestRequestView: View {
     
     func loadContent() {
         content = "Loading..."
-        let url = URL(string: "https://stackoverflow.com")!
+        // ⚠️ Remplacer [YOUR_API_KEY] par votre clé API (que vous pouvez obtenir sur le site https://www.themoviedb.org)
+        let API_KEY = "[YOUR_API_KEY]"
+        let url = URL(string: "https://api.themoviedb.org/3/movie/popular?api_key=\(API_KEY)")!
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             
@@ -32,9 +34,23 @@ struct TestRequestView: View {
                 print(error.localizedDescription)
             }
             
+            // data contient les données récupérées de l'API
             if let data = data {
-                let stringData = String(data: data, encoding: .utf8)
-                content = stringData ?? "no data"
+                do {
+                    // json contient les données transformées en type Any
+                    let json = try JSONSerialization.jsonObject(with: data)
+                    
+                    // On doit alors convertir le type Any en type JSON, c'est-à-dire : soit un type tableau, soit un type dictionnaire.
+                    let jsonDictionary = json as! [String: Any]
+                    
+                    // Une fois le dictionnaire transformé, on peut récupérer une valeur de ce dictionnaire via une clé (dans notre exemple, la clé "page")
+                    // Ensuite, on doit convertir cette clé en fonction de l'API
+                    let page = jsonDictionary["page"] as! Int
+                    
+                    content = "n° page : \(page)"
+                } catch {
+                    print("Error de serialisation")
+                }
             }
         }
         task.resume()
